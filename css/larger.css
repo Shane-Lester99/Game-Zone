@@ -5,6 +5,8 @@
 
 html, body {	
 	max-width: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
 	/*margin: auto;*/
 	background: #171c28;
 	height: 100%;
@@ -293,9 +295,10 @@ body::-webkit-scrollbar-thumb {
 
 
 .entire-description {
-	margin-top: 10%;
+	margin-top: 15%;
 	text-align: center;
 	font-family: 'Oxygen', sans-serif;
+	margin-bottom: 7%;
 	/*width: 80%;*/
 	/*float: right;*/
 	/*padding-left: 10%;*/
@@ -303,7 +306,7 @@ body::-webkit-scrollbar-thumb {
 
 .title-description {
 	color: #e7e7e7;
-	font-size: 5vw;
+	font-size: 4.5vw;
 	font-family: 'Oxygen', sans-serif;
 	/*display: none;*/
 	/*display: inline;*/
@@ -321,14 +324,14 @@ body::-webkit-scrollbar-thumb {
 	/*margin-top: 5%;*/
 	margin-bottom: 5%;
 	margin: auto;
-	width: 30%;
+	width: 35%;
 	height: 45vw;
 	overflow-y: auto;
 	resize: none;
 	background-color: #171c28;
 	border: none;
-	font-size: 3vw;
-	line-height: 4vw;
+	font-size: 2.5vw;
+	line-height: 3.25vw;
 	color: #afafaf;
 	text-align: center;
 	font-family: 'Oxygen', sans-serif;
@@ -336,12 +339,13 @@ body::-webkit-scrollbar-thumb {
 	border-width: 2px;*/
 }
 .opening {
-	padding-top: 5%;
+	/*padding-top: 5%;*/
 }
 
 .play-button {
 	/*align-self: center;*/
-	font-size: 8vw;
+	margin-right: 5%;
+	font-size: 8.5vw;
 	background-color: #171c28;
 	color:  #007bff;
 	/*margin-bottom: 20%;*/
@@ -354,7 +358,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .source-code {
-	font-size: 3vw;
+	font-size: 3.5vw;
 	background-color: #171c28;
 	color:  #007bff;
 	/*color: #afafaf;*/
@@ -372,7 +376,7 @@ body::-webkit-scrollbar-thumb {
 	/*margin-left: 15%;*/
 	margin-bottom: -3%;
 	/*text-decoration-line: underline;*/
-	font-size: 10vw;
+	font-size: 8vw;
 	color: #e7e7e7;
 	/*color:  #d0ae2e;*/
 	font-family: 'Oxygen', sans-serif;
@@ -381,8 +385,9 @@ body::-webkit-scrollbar-thumb {
 /*Style for featured work tag*/
 .featured_work {
 	margin-top: 27%;
-	padding-top: 5%;
+	padding-top: 30%;
 	padding-bottom: 5%;
+	/*width: 100%;*/
 	text-align: center;
 	font-size: 4.5vw;
 	/*color: #afafaf;*/
@@ -394,9 +399,9 @@ body::-webkit-scrollbar-thumb {
 /*Style for portfolio work*/
 
 .app-chooser {
-	width: 30%; /* 40% */
+	width: 20%; /* 40% */
 	margin-left: 15%;
-	margin-right: 15%;
+	margin-right: 30%;
 	order: 2;
 	float: left;
 }

@@ -343,7 +343,7 @@ body::-webkit-scrollbar-thumb {
 .app-icon {
 	height: 30vw;
 	width: 30vw;
-	border-radius: 100px;
+	border-radius: 1000px;
 }
 
 .leaf_fig {
