@@ -7,7 +7,7 @@ html, body {
 	margin-left: 3%;
 	background: #171c28;
 	height: 100%;
-	background-color: green;
+	/*background-color: green;*/
 	/*background-color: green;*/
 	/*overflow-y: auto;*/
 	/*height: 100%;*/
@@ -254,20 +254,28 @@ body::-webkit-scrollbar-thumb {
 	border-bottom-width: 2px;
 }
 
+
+.entire-description {
+	margin-top: 10%;
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+	/*width: 80%;*/
+	/*float: right;*/
+	/*padding-left: 10%;*/
+}
+
 .title-description {
 	color: #e7e7e7;
 	font-size: 5vw;
 	font-family: 'Oxygen', sans-serif;
+	/*display: none;*/
 	/*display: inline;*/
+	/*width: 60%;*/
 }
 
-/*.entire-description {
 
-}*/
 
 .app-description {
-	float: right;
-	order: 2;
 	/*margin-top: 10%;*/
 	/*padding-bottom: 20%;*/
 	/*padding-top: 5%;*/
@@ -275,8 +283,8 @@ body::-webkit-scrollbar-thumb {
 	/*margin-bottom: 10%;*/
 	/*margin-top: 5%;*/
 	margin-bottom: 5%;
-	margin-top: 3%;
-	width: 40%;
+	margin: auto;
+	width: 30%;
 	height: 45vw;
 	overflow-y: auto;
 	resize: none;
@@ -348,9 +356,10 @@ body::-webkit-scrollbar-thumb {
 /*Style for portfolio work*/
 
 .app-chooser {
-	width: 40%; /* 40% */
-	margin-left: 10%;
-	order: 1;
+	width: 30%; /* 40% */
+	margin-left: 15%;
+	margin-right: 15%;
+	order: 2;
 	float: left;
 }
 
