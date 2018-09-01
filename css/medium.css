@@ -43,6 +43,10 @@ main {
   background: #e7e7e7;  Gecko Browsers 
 }*/
 
+.additional-pictures {
+	display: none;
+}
+
 /* Footer */
 
 footer {
