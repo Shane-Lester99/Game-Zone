@@ -129,7 +129,7 @@ footer {
 }
 
 .fab {
-	font-size: 7.5vw;
+	font-size: 6.5vw;
 	margin-right: 3vw;
 	margin-top: 1.8vw;
 	color: #e7e7e7;
@@ -149,7 +149,7 @@ footer {
 }
 
 .signature {
-	font-size: 3.2vw;
+	font-size: 2.8vw;
 	float: right;
 	/*margin-right: 10vw;*/
 	/*line-height: 14vw;*/
@@ -161,11 +161,11 @@ footer {
 }
 
 .name {
-	font-size: 3.8vw;
+	font-size: 3.4vw;
 }
 
 .emoji {
-	font-size: 6vw;
+	font-size: 5vw;
 }
 
 /* width */
@@ -433,7 +433,7 @@ body::-webkit-scrollbar-thumb {
 	font-size: 8vw;
 	background-color: #171c28;
 	color:  #007bff;
-	padding-top: 40%;
+	padding-top: 70%;
 	opacity: 0.8;
 	/*height: 0;*/
 	border: none;
