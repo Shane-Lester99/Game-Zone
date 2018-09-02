@@ -45,6 +45,10 @@ main {
 	flex: 1 0 auto;
 }
 
+a {
+	text-decoration: none;
+}
+
 /*main {
 	overflow: auto;
 	padding-bottom: 180px;
@@ -341,7 +345,7 @@ body::-webkit-scrollbar-thumb {
 
 .play-button {
 	/*align-self: center;*/
-	font-size: 8vw;
+	font-size: 9vw;
 	background-color: #171c28;
 	color:  #007bff;
 	/*margin-bottom: 20%;*/
@@ -354,7 +358,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .source-code {
-	font-size: 3vw;
+	margin-top: 6%;
+	margin-left: 4%;
+	font-size: 4vw;
 	background-color: #171c28;
 	color:  #007bff;
 	/*color: #afafaf;*/

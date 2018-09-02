@@ -28,10 +28,27 @@ class ActiveGame {
 		this.apps = [new AppInformation('Concentration'), new AppInformation('Tommy Cross')];
 		this.currentAppIndex = 0;
 	}
-	//moveLeft()
-	//moveRight()
+	loadData() {
+		// Changes app
+		document.querySelector('.app-name');
+		document.querySelector('.app-icon');
+
+		// Changes description
+		document.querySelector('.title-description');
+		document.querySelector('.app-description');
+
+		// Changes play button and source code links
+		
+
+	}
+	scrollLeft() {
+
+	}
+	scrollRight() {
+
+	}
 }
 
 
 
-document.querySelector('')
+// document.querySelector('')

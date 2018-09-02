@@ -47,6 +47,10 @@ main {
 	flex: 1 0 auto;
 }
 
+a {
+	text-decoration: none;
+}
+
 /*main {
 	overflow: auto;
 	padding-bottom: 180px;
@@ -344,8 +348,8 @@ body::-webkit-scrollbar-thumb {
 
 .play-button {
 	/*align-self: center;*/
-	margin-right: 5%;
-	font-size: 8.5vw;
+	margin-right: 1%;
+	font-size: 9vw;
 	background-color: #171c28;
 	color:  #007bff;
 	/*margin-bottom: 20%;*/
@@ -358,9 +362,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .source-code {
-	font-size: 3.5vw;
+	font-size: 3.75vw;
 	background-color: #171c28;
 	color:  #007bff;
+	margin-top: 7%;
+	margin-left: 4%;
 	/*color: #afafaf;*/
 	/*border-color:  #007bff;*/
 	/*margin-bottom: 6%;*/

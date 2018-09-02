@@ -43,6 +43,10 @@ main {
 	flex: 1 0 auto;
 }
 
+a {
+	text-decoration: none;
+}
+
 /*main {
 	overflow: auto;
 	padding-bottom: 180px;
@@ -337,10 +341,10 @@ body::-webkit-scrollbar-thumb {
 
 .play-button {
 	/*align-self: center;*/
-	font-size: 120px;
+	font-size: 150px;
 	background-color: #171c28;
 	color:  #007bff;
-	margin-right: 40px;
+	margin-right: 70px;
 	/*margin-bottom: 20%;*/
 	/*color: #afafaf;*/
 	/*border-color:  #007bff;*/
@@ -351,7 +355,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .source-code {
-	font-size: 40px;
+	font-size: 60px;
+	padding-top: 100px;
 	background-color: #171c28;
 	color:  #007bff;
 	/*color: #afafaf;*/
