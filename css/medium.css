@@ -111,6 +111,16 @@ footer {
 	border-bottom-width: 2px;
 }
 
+.fab:focus {
+	opacity: 1;
+	margin-bottom: 0;
+	/*line-height: 10px;*/
+	border-bottom-color: #1ed760;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	outline: none;
+}
+
 .signature {
 	font-size: 3.2vw;
 	float: right;
@@ -242,6 +252,15 @@ body::-webkit-scrollbar-thumb {
 	border-bottom-color: #1ed760;
 	border-bottom-style: solid;
 	border-bottom-width: 2px;
+}
+
+.app-button:focus {
+	opacity: 1;
+	margin-bottom: 0;
+	border-bottom-color: #1ed760;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	outline: none;
 }
 
 .entire-description {
@@ -378,6 +397,17 @@ body::-webkit-scrollbar-thumb {
 	border-bottom-style: solid;
 	border-bottom-width: 2px;
 	height: 100%;
+}
+
+.scroll-button:focus {
+	opacity: 1;
+	margin-bottom: 0;
+	border-bottom-color: #1ed760;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	height: 100%;
+	outline: none;
+
 }
 
 
