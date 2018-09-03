@@ -41,7 +41,7 @@ class ActiveApplication {
 	}
 	loadData() {
 		// Changes app
-		document.querySelector('.app-name').innerHTML = this.apps[this.currentAppIndex].nameOfGame;
+		// document.querySelector('.app-name').innerHTML =  '';//this.apps[this.currentAppIndex].nameOfGame;
 		// Needs attribute
 		const appIcon = document.querySelector('.app-icon');
 

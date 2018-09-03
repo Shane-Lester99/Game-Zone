@@ -10,6 +10,7 @@ html, body {
 	/*margin: auto;*/
 	background: #171c28;
 	height: 100%;
+	/*background-color: red;*/
 	/*background-color: green;*/
 	/*background-color: green;*/
 	/*overflow-y: auto;*/
@@ -310,7 +311,7 @@ body::-webkit-scrollbar-thumb {
 
 .title-description {
 	color: #e7e7e7;
-	font-size: 4.5vw;
+	font-size: 3.5vw;
 	font-family: 'Oxygen', sans-serif;
 	/*display: none;*/
 	/*display: inline;*/
