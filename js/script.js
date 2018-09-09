@@ -31,8 +31,8 @@ class AppInformation {
 			info.push('Concentration');
 			const gameDescription = 'Welcome to Concentration :)';
 			info.push(gameDescription);
-			info.push('http://github.Concentration')
-			info.push('play-concentration');
+			info.push('http://github/Shane-Lester99/Concentration')
+			info.push('Concentration/index.html');
 			info.push('images/game-images/concentration-game-images/concentration-pic-4.png');
 			info.push('images/game-images/concentration-game-images/concentration-pic-3.png');
 			info.push('images/game-images/concentration-game-images/concentration-pic-1.png');
