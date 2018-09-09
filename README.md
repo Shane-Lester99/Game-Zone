@@ -16,14 +16,14 @@ the source code to see how I built them. It also has pictures
 and a description of the applications. If people want to contact me, the user also has
 the option to reach me on LinkedIn or Github.
 
-##Purpose:     
+## Purpose:     
 This application makes people without a software engineering background to be able
 to access my applications. Many people dont know how to copy code on their local
 machine and use it, and this application makes it as easy as possible to use my 
 applications and check the source code to see how it was built. Lastly, it acts as
 a portfolio for some of my work, so people can see what some of my current projects are.
 
-##Browsers Supported:
+## Browsers Supported:
 
 - Tested on:
 	- Google Chrome 
@@ -35,17 +35,17 @@ a portfolio for some of my work, so people can see what some of my current proje
 	- All applications arent playable across all types of devices just yet. Some arent
 	playable without a keyboard. So make sure to read the description to make sure that your perferred device is supported.
 
-##How To Open the game
+## How To Open the game
 
 - Go to [this](Shane-Lester99.github.io) website to open the application
 
-##How To Use:   
+## How To Use:   
 
 - Scroll through the buttons to discover information about the app, click the play button to open it in your browser, or click 'source code' to see how it was built
 
 - Additionally, you can click my LinkedIn or Github button to find more information about me
 
 
-##Created by:
+## Created by:
 
 - This app player was created by Shane Lester. But remember, some of the applications that it can play, while primarily developed by me, had other collaborators. So make sure to read the description and the README to see who was responsible for what
