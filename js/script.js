@@ -17,10 +17,13 @@ class AppInformation {
 			info.push('images/tommy.svg');
 			info.push('app logo of game called Tommy Cross')
 			info.push('Tommy Cross');
-			const gameDescription = '<p>Welcome to Tommy Cross :)</P>';
+			const gameDescription = AppInformation.generateDescription('Tommy Cross');
 			info.push(gameDescription);
 			info.push('http://github.TC')
 			info.push('play-tommy-cross');
+			info.push('images/game-images/tommy-cross-game-images/tommy-cross-pic-1.png');
+			info.push('images/game-images/tommy-cross-game-images/tommy-cross-pic-2.png');
+			info.push('images/game-images/tommy-cross-game-images/tommy-cross-pic-3.png');
 		}
 		else if (appName === 'Concentration') {
 			info.push('images/concentration.svg');
@@ -33,10 +36,24 @@ class AppInformation {
 			info.push('images/game-images/concentration-game-images/concentration-pic-4.png');
 			info.push('images/game-images/concentration-game-images/concentration-pic-3.png');
 			info.push('images/game-images/concentration-game-images/concentration-pic-1.png');
-
-
 		}
 		return info;
+	}
+
+	static generateDescription(appTitle) {
+		if (appTitle === 'Tommy Cross') {
+			const message = '<p>Like Frogger, Tommy Cross is about crossing the road to ' + 
+			'reach the other side during a traffic jam. The primary goal is to dodge traffic and make' +
+			' it to the other side safely.</p>' + 
+			' <p>However, there is a twist on the original. Rather then just trying to' +  
+			' get to the other side the goal of the game is to get as many points as possible! </p>' +
+			' This allows the user to constantly dodge traffic, making it much more action packed then the original Frogger! </p>' +
+			'<p> Engineering-wise, this was a collaboration effort, so please read the README for details in the source code. </p>';
+      		return message;
+		}
+		else if (appTitle === 'Concentration') {
+			const message = ''
+		}
 	}
 }
 
