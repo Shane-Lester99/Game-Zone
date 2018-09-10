@@ -1,19 +1,10 @@
-/*Style for html, body, and general elements*/
-
+/*Style for html, body, and main*/
 html, body {	
 	max-width: 1400px;
 	margin-right: auto;
 	margin-left: auto;
 	background: #171c28;
 	height: 100%;
-	/*background-color: orange;*/
-	/*background-color: green;*/
-	/*overflow-y: auto;*/
-	/*height: 100%;*/
-
-	/*height: 100%;*/
-	/*width: 100%;*/
-	/*overflow-y: hidden;*/
 }
 
 body {
@@ -21,50 +12,38 @@ body {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
-	/*justify-content: center;*/
-}
-
-.portfolio-content {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	/*justify-content: center;*/
-	/*align-content: center;*/
-	/*align-items: center;*/
-
-}
-
-img {
-	/*height: 30vw;*/
-	width: 600px;
 }
 
 main {
 	flex: 1 0 auto;
 }
 
+/* Class of main */
+.portfolio-content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+/* Remove default lines from all links */
 a {
 	text-decoration: none;
 }
 
-/*main {
-	overflow: auto;
-	padding-bottom: 180px;
-}
-*/
-
-/*img {
-	border-radius: 10px;
-}*/
-
+/* Remove visible scrollbar from description */
 ::selection {
   background: #e7e7e7; /* WebKit/Blink Browsers */
 }
 
-/*::-moz-selection {
-  background: #e7e7e7;  Gecko Browsers 
-}*/
+/* Remove visible scrollbar from page */
+::-webkit-scrollbar {
+    width: 0;
+}
 
+/* Style the additional pictures */
+img {
+	width: 600px;
+}
 
 .additional-pictures {
 	display: flex;
@@ -72,60 +51,15 @@ a {
 	flex-wrap: nowrap;
 	width: 100%;
 	overflow-x: auto;
-	/*justify-content: center;*/
-	/*padding-left: -30%;*/
-
-	/*margin-left: -5%;*/
 }
 
-/*.app-fig-1 {
-	margin-left: 10%;
-}
-
-.app-fig-3 {
-	margin-right: 40%;
-}*/
-
-/*.extra-pic {
-	width: 300px;
-	height: 100px;
-}*/
-
-/*.additional-pic {
-	width: 20vw;
-	height: 20vw;
-}*/
-
-/* Footer */
-
+/* Footer Elements below */
 footer {
-	/*height: 100%;*/
 	flex-shrink: 0;
-	/*margin-top: -180px;*/
-	/*height: 180px;*/
-	/*border-top-spacing: 100px;*/
 	border-top-width: 1px;
 	border-top-style: solid;
 	border-top-color: #e7e7e7;
-	/*position: fixed;*/
-	/*clear: both;*/
-	/*bottom: 0;
-	left: 0;
-	right: 0;*/
-	/*margin-top: -3em;*/
-	/*margin-right: 3%;
-	margin-left: 3%;*/
 	width: 100%;
-	/*height: 0px;*/
-	/*margin-left: 5%;*/
-	/*position: fixed;*/
-	/*display: none;*/
-	/*clear: both;*/
-	/*margin-right: 5%;*/
-
-	/*max-width: 100vw;*/
-	/*margin-right: 0.2vw;
-	margin-left: 0.2vw;*/
 }
 
 .fab {
@@ -142,7 +76,6 @@ footer {
 	opacity: 1;
 	cursor: pointer;
 	margin-bottom: 0;
-	/*line-height: 10px;*/
 	border-bottom-color: #1ed760;
 	border-bottom-style: solid;
 	border-bottom-width: 2px;
@@ -151,23 +84,19 @@ footer {
 .fab:focus {
 	opacity: 1;
 	margin-bottom: 0;
-	/*line-height: 10px;*/
 	border-bottom-color: #1ed760;
 	border-bottom-style: solid;
 	border-bottom-width: 2px;
 	outline: none;
 }
 
+/* This styles my Apps Engineered by Shane */
 .signature {
 	font-size: 50px;
 	float: right;
-	/*margin-right: 10vw;*/
-	/*line-height: 14vw;*/
 	font-family: 'Lato', Geneva, sans-serif;
     color: #afafaf;
 	margin-top: 20px;
-	/*margin-right: 20vw;*/
-	/*margin-bottom: 1em;*/
 }
 
 .name {
@@ -178,98 +107,36 @@ footer {
 	font-size: 90px;
 }
 
-/* width */
-::-webkit-scrollbar {
-    width: 0;
+/* This styles the app selector */
+.featured_work {
+	margin-top: 200px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 60px;
+	color: #e7e7e7;
+	font-family: 'Oxygen', sans-serif;
 }
 
-/*body::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-}
- 
-body::-webkit-scrollbar-thumb {
-  background-color: blue;
-  outline: 1px solid blue;
-}*/
-
-/*Style for header*/
-/*.header_unit {
+.all_my_work {
 	display: flex;
 	flex-wrap: nowrap;
-	width: 100vw;
-	justify-content: space-between;
-}
-*/
-/*.udacity_logo_wrapper {
-	width: 15vw;
-	order: 1;
-}
-
-#udacity_logo {
-	width: 100%;
-	padding-top: 70%;
-}
-
-.name_description {
-	order: 2;
-}*/
-
-/*span.header, span.sub_header {
-	display: block;
-	text-align: right;
-}
-
-.header {
-	font-size: 6vw;
-	font-family: 'Lato', Geneva, sans-serif;
-	color: #e7e7e7;
-}
-
-.sub_header {
-	font-size: 7vw;
-	font-family: 'Pinyon Script', cursive;
-	color: #e7e7e7;
-}
-
-.divider_header {
-	height: 0.2vw;
-	background-color:  #e7e7e7;
-	border: 0px;
-	border-radius: 0.5px;
-}*/
-
-/*Style for first picture*/
-/*.html_image {
-	display: flex;
-	flex-wrap: nowrap;;
-	width: 100vw;
-}
-
-.html_figure {
-	width: 100vw;
-}*/
-
-
-
-
-/*.main-app {
-	display: flex;
-	flex-wrap: wrap;
 	justify-content: center;
-}*/
-
-/*.app-button:hover {
-	opacity: 1;
-	cursor: pointer;
-}*/
-
-
-
-/*Style for app evaluator*/
-.main-app-fig {
-	/*width: 50vw;*/
+	flex-direction: row;
 	width: 100%;
-	/*width: 100vw;*/
+
+}
+
+.app-chooser {
+	width: 400px; 
+	margin-left: 150px;
+	margin-right: 100px;
+	order: 2;
+	float: left;
+}
+
+.main-app-fig {
+	width: 100%;
 }
 
 .main-app-buttons {
@@ -278,18 +145,10 @@ body::-webkit-scrollbar-thumb {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: center;
-	/*align-self: center;*/
-	/*margin-left: 30%;*/
-	/*width: 100%;
-	height: 100%;*/
-	/*height: auto ;*/
-	/*width: 100%;*/
 	order: 3;
-	/*padding-top: 7%;
-	padding-bottom: 7%*/;
-
 }
 
+/* These style the play and source code buttons */
 .app-button {
 	opacity: 0.8;
 	margin-bottom: 2px;
@@ -312,65 +171,12 @@ body::-webkit-scrollbar-thumb {
 	outline: none;
 }
 
-
-.entire-description {
-	margin-top: 220px;
-	text-align: center;
-	font-family: 'Oxygen', sans-serif;
-	/*width: 80%;*/
-	/*float: right;*/
-	/*padding-left: 10%;*/
-}
-
-.title-description {
-	/*margin-bottom: -3.5px;*/
-	color: #e7e7e7;
-	font-size: 60px;
-	font-family: 'Oxygen', sans-serif;
-	/*display: none;*/
-	/*display: inline;*/
-	/*width: 60%;*/
-}
-
-
-
-.app-description {
-	/*margin-top: 10%;*/
-	/*padding-bottom: 20%;*/
-	/*padding-top: 5%;*/
-	/*padding-bottom: 5%;*/
-	/*margin-bottom: 10%;*/
-	/*margin-top: 5%;*/
-	
-	margin: auto;
-	width: 400px;
-	height: 550px;
-	overflow-y: auto;
-	resize: none;
-	background-color: #171c28;
-	border: none;
-	font-size: 40px;
-	line-height: 55px;
-	color: #afafaf;
-	text-align: center;
-	font-family: 'Oxygen', sans-serif;
-	/*border-color: black;
-	border-width: 2px;*/
-}
-
 .play-button {
-	/*align-self: center;*/
 	font-size: 150px;
 	background-color: #171c28;
 	color:  #007bff;
 	margin-right: 70px;
-	/*margin-bottom: 20%;*/
-	/*color: #afafaf;*/
-	/*border-color:  #007bff;*/
-	/*margin-bottom: 50%;*/
 	border: none;
-	/*height: 1%;*/
-	/*border-radius: 100px;*/
 }
 
 .source-code {
@@ -378,61 +184,15 @@ body::-webkit-scrollbar-thumb {
 	padding-top: 100px;
 	background-color: #171c28;
 	color:  #007bff;
-	/*color: #afafaf;*/
-	/*border-color:  #007bff;*/
-	/*margin-bottom: 6%;*/
 	border: none;
 	padding-bottom: 5px;
-	/*height: 1%;*/
-	/*border-radius: 100px;*/
-	/*border: none;*/
 }
 
-
-/*Style for featured work tag*/
-.featured_work {
-	margin-top: 200px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	font-size: 60px;
-	/*color: #afafaf;*/
-	color: #e7e7e7;
-	font-family: 'Oxygen', sans-serif;
-	/*padding-bottom: 10vh;*/
-}
-
-/*Style for portfolio work*/
-
-.app-chooser {
-	width: 400px; /* 40% */
-	margin-left: 150px;
-	margin-right: 100px;
-	order: 2;
-	float: left;
-}
-
-.all_my_work {
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: center;
-	flex-direction: row;
-	/*margin: auto;*/
-	width: 100%;
-
-}
-
+/* These style the app icon and scroll buttons */
 .app-icon {
 	height: 400px;
 	width: 400px;
 	border-radius: 1000px;
-}
-
-.leaf_fig {
-	/*order: 2;*/
-	/*height: 40vw;
-	width: 40vw	/*border-radius: 200px;
-	border-width: 10px;*/
 }
 
 .scroll-button {
@@ -441,7 +201,6 @@ body::-webkit-scrollbar-thumb {
 	color:  #007bff;
 	padding-top: 175px;
 	opacity: 0.8;
-	/*height: 0;*/
 	border: none;
 	margin-bottom: 2px;
 	height: 100%;
@@ -469,18 +228,6 @@ body::-webkit-scrollbar-thumb {
 
 }
 
-.balloon_fig {
-	display: none;
-	order: 2;
-	width: 50vw;
-}
-
-.road_fig {
-	display: none;
-	order: 3;
-	width: 50vw;
-}
-
 .app {
 	opacity: 0.4;
 	
@@ -488,10 +235,6 @@ body::-webkit-scrollbar-thumb {
 
 .app:hover, {
 	cursor: pointer;
-	/*margin-bottom: 0;
-	border-bottom-color:#1ed760;
-	border-bottom-style: solid;
-	border-bottom-width: 3px;*/
 }
 
 .app-name {
@@ -503,9 +246,32 @@ figcaption {
 	text-align: center;
 	font-family: 'Oxygen', sans-serif;
 	color: #e7e7e7;
-	/*color: white;*/
 }
 
-/*.link {
-	font-size: 3vw;
+/* This styles the app description */
+.entire-description {
+	margin-top: 220px;
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.title-description {
+	color: #e7e7e7;
+	font-size: 60px;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.app-description {
+	margin: auto;
+	width: 400px;
+	height: 550px;
+	overflow-y: auto;
+	resize: none;
+	background-color: #171c28;
+	border: none;
+	font-size: 40px;
+	line-height: 55px;
+	color: #afafaf;
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
 }
