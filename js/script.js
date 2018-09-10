@@ -14,7 +14,7 @@ class AppInformation {
 	static generateAppInfo(appName) {
 		let info = [];
 		if (appName === 'Tommy Cross') {
-			info.push('images/tommy.svg');
+			info.push('images/game-logos/tommy-cross-logo.svg');
 			info.push('app logo of game called Tommy Cross')
 			info.push('Tommy Cross');
 			const gameDescription = AppInformation.generateDescription('Tommy Cross');
@@ -26,7 +26,7 @@ class AppInformation {
 			info.push('images/game-images/tommy-cross-game-images/tommy-cross-pic-3.png');
 		}
 		else if (appName === 'Concentration') {
-			info.push('images/concentration.svg');
+			info.push('images/game-logos/concentration-logo.svg');
 			info.push('app logo of game called concentration')
 			info.push('Concentration');
 			const gameDescription = 'Welcome to Concentration :)';
@@ -36,6 +36,19 @@ class AppInformation {
 			info.push('images/game-images/concentration-game-images/concentration-pic-4.png');
 			info.push('images/game-images/concentration-game-images/concentration-pic-3.png');
 			info.push('images/game-images/concentration-game-images/concentration-pic-1.png');
+		}
+		else if (appName ==='Pixel Art') {
+			info.push('images/game-logos/pixel-art-logo.svg');
+			info.push('app logo of game called Pixel Art')
+			info.push('Pixel Art');
+			const gameDescription = 'Welcome to Pixel Art :)';
+			info.push(gameDescription);
+			info.push('https://github.com/Shane-Lester99/Pixel-Art-Maker')
+			info.push('Pixel-Art-Maker/index.html');
+			info.push('images/game-images/pixel-art-game-images/pixel-art-pic-6.png');
+			info.push('images/game-images/pixel-art-game-images/pixel-art-pic-1.png');
+			info.push('images/game-images/pixel-art-game-images/pixel-art-pic-4.png');
+
 		}
 		return info;
 	}
@@ -52,14 +65,17 @@ class AppInformation {
       		return message;
 		}
 		else if (appTitle === 'Concentration') {
-			const message = ''
+			const message = '';
+		}
+		else if (appTitle === 'Pixel Art') {
+			const message = '';
 		}
 	}
 }
 
 class ActiveApplication {
 	constructor() {
-		this.apps = [new AppInformation('Concentration'), new AppInformation('Tommy Cross')];
+		this.apps = [new AppInformation('Tommy Cross'), new AppInformation('Concentration'), new AppInformation('Pixel Art')];
 		this.currentAppIndex = 0;
 	}
 	loadData() {

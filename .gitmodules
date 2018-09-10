@@ -4,3 +4,6 @@
 [submodule "Tommy-Cross"]
 	path = Tommy-Cross
 	url = https://github.com/Shane-Lester99/Tommy-Cross
+[submodule "Pixel-Art-Maker"]
+	path = Pixel-Art-Maker
+	url = https://github.com/Shane-Lester99/Pixel-Art-Maker
