@@ -12,14 +12,15 @@ body {
 	flex-wrap: nowrap;
 }
 
+main {
+	flex: 1 0 auto;
+}
+
+/* Class of main */
 .portfolio-content {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-}
-
-main {
-	flex: 1 0 auto;
 }
 
 /* Remove default lines from all links*/
