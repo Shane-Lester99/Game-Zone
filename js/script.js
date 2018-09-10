@@ -19,8 +19,8 @@ class AppInformation {
 			info.push('Tommy Cross');
 			const gameDescription = AppInformation.generateDescription('Tommy Cross');
 			info.push(gameDescription);
-			info.push('http://github.TC')
-			info.push('play-tommy-cross');
+			info.push('https://github.com/Shane-Lester99/Tommy-Cross');
+			info.push('Tommy-Cross/index.html');
 			info.push('images/game-images/tommy-cross-game-images/tommy-cross-pic-1.png');
 			info.push('images/game-images/tommy-cross-game-images/tommy-cross-pic-2.png');
 			info.push('images/game-images/tommy-cross-game-images/tommy-cross-pic-3.png');
@@ -31,7 +31,7 @@ class AppInformation {
 			info.push('Concentration');
 			const gameDescription = 'Welcome to Concentration :)';
 			info.push(gameDescription);
-			info.push('http://github/Shane-Lester99/Concentration')
+			info.push('https://github.com/Shane-Lester99/Concentration')
 			info.push('Concentration/index.html');
 			info.push('images/game-images/concentration-game-images/concentration-pic-4.png');
 			info.push('images/game-images/concentration-game-images/concentration-pic-3.png');
