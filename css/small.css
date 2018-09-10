@@ -151,19 +151,6 @@ footer {
 	border-radius: 1000px;
 }
 
-.app {
-	opacity: 0.4;
-	
-}
-
-.app:hover, {
-	cursor: pointer;
-}
-
-.app-name {
-	opacity: 1;
-}
-
 figcaption {
 	font-size: 4vw;
 	text-align: center;

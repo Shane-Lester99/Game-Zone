@@ -241,19 +241,6 @@ footer {
 
 }
 
-.app {
-	opacity: 0.4;
-	
-}
-
-.app:hover, {
-	cursor: pointer;
-}
-
-.app-name {
-	opacity: 1;
-}
-
 figcaption {
 	font-size: 55px;
 	text-align: center;
