@@ -21,12 +21,12 @@ a {
 	text-decoration: none;
 }
 
-/* Remove visible scrollbar */
+/* Remove visible scrollbar from page */
 ::-webkit-scrollbar {
     width: 0;
 }
 
-/* Remove visible scrollbar from description */
+/* Remove visible scrollbar from description  */
 ::selection {
   background: #e7e7e7; /* WebKit/Blink Browsers */
 }
