@@ -128,8 +128,6 @@ class ActiveApplication {
 }
 
 const applications = new ActiveApplication();
-
-// document.querySelector('')
 const leftScrollButton = document.querySelector('.left');
 const rightScrollButton = document.querySelector('.right');
 
