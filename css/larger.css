@@ -1,3 +1,16 @@
+/*************************************************************************
+Title:       larger.css
+
+Author:      Shane Lester
+
+Created on:  September 8th 2018
+
+Description: Styles the 'App Chooser' web application for screen sizes
+			 from 801px to 1400px in width. For more information on the 
+			 application please refer to the README within this project.
+
+**************************************************************************/
+
 /*Style for html, body, and main*/
 html, body {	
 	max-width: 100%;
