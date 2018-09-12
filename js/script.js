@@ -133,13 +133,11 @@ class AppInformation {
 		// Concentration passed in as a parameter, generate descripiton
 		else if (appTitle === 'Concentration') {
 			 message = 
-			 '<p>Remember concentration? It’s that matching game you may have played as a kid where you laid ' +
-			 'out a bunch of cards face-down and tried to pair up two of a kind as quickly as possible. </p>' +
-			 '<p> Your parents may or may not have yelled at you for making a mess... </p>' +
-			 '<p> Too bad there was no way to play it without making a mess. Like... online or something? ' +
-			 '<p> Also behind each card is a secret emoji, with two of each type within the deck of ' + 
-			 'cards. Be careful though, the emojis change fast, so make sure to... focus! ' +
-			  '(is there another word for that?)</p>';
+			 '<p>Remember concentration? It’s that matching game you may have played as a child.' +
+			 'It was the one where you put cards face-down and paired up two of a kind as quickly as possible? </p>' +
+			'<p>If you do not remember, its okay neither did I at first, and thats what google is for!</p>' +
+			'<p>Anyway, behind each card is a secret emoji, with two of each type within the deck of cards. ' +
+			'Be careful though, the emojis change fast, so make sure to… focus! (was there a better word for that?) </p>';
 		}
 		// Pixel Art passed in as a parameter, generate descripiton
 		else if (appTitle === 'Pixel Art') {
