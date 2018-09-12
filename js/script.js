@@ -126,16 +126,31 @@ class AppInformation {
 			' <p>However, there is a twist on the original. Rather then just trying to' +  
 			' get to the other side the goal of the game is to get as many points as possible! </p>' +
 			' This allows the user to constantly dodge traffic, making it much more action packed then the original Frogger! </p>' +
-			'<p> Engineering-wise, this was a collaboration effort, so please read the README for details in the source code. </p>';
+			'<p> Engineering-wise, this was a collaboration effort, so please read the README for details in the source code. </p>' +
+			'<p> Lastly, the game is not yet playable for touch devices. That will come out in some future update, '+ 
+			'but for now, enjoy Tommy Cross in the web browser of your choice! </p>';
   
 		}
 		// Concentration passed in as a parameter, generate descripiton
 		else if (appTitle === 'Concentration') {
-			 message = '';
+			 message = '<p>This game is a browser based version of the classic card game concentration. </p>'  +
+			 '<p>Remember concentration? It’s that matching game you played when you were a kid where you laid ' +
+			 'out a bunch of cards face-down and tried to pair up two of a kind as quickly as possible. </p>' +
+			 '<p>If you do not remember, its okay neither did I, and thats what google is for!</p>' +
+			 '<p>Anyway, behind each card is a secret emoji, with two of each type within the deck of ' + 
+			 'cards. Be careful though, the emojis change fast, so make sure to concentrate!</p>';
 		}
 		// Pixel Art passed in as a parameter, generate descripiton
 		else if (appTitle === 'Pixel Art') {
-			 message = '';
+			 message = '<p>Did you ever want to use a drawing app that could re-create classic ' +
+			 'pixelated-yet-lovable game sprites from the beginning of gaming? Or are you more ' +
+			  'of an abstract artist that wants to create a pixelated affect in your drawings?' +
+			  ' Or perhaps you have a few hours to kill before a big date tonight ?</p>' +
+			'<p>Either way, this app is just what you need, and you should create some pixel art! </p> ' +
+			'<p>All you have to get started is fill in what size you want your canvas to be, choose a color, ' +
+			 'and get drawing! But be warned, it can get pretty addictive pretty fast! </p>' +
+			'<p>Also note that this app was a collaboration effort, so please read the README ' +
+			'in the source code to learn more about who made what.  </p>';
 		}
 		// Return the description
 		return message;
