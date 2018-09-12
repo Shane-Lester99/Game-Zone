@@ -4,6 +4,7 @@
 
 * [Description](#description)
 * [Purpose](#purpose)
+* [Contributions](#Contributions)
 * [Browsers Supported](#browsers-supported)
 * [How To Play](#how-to-play)
 * [Build](#build)
@@ -23,17 +24,21 @@ machine and use it, and this application makes it as easy as possible to use my
 applications and check the source code to see how it was built. Lastly, it acts as
 a portfolio for some of my work, so people can see what some of my current projects are.
 
+## Contributions:
+
+To create the app player, there were no contributions. However, some of the apps had contributions. So make sure to refer to the README if interested in who built what part. All of the apps were primarily built by me from scratch or near scratch, with minor contributions from others. Please read each projects individual README.md file and read under the section 'Contributions' for more information
+
 ## Browsers Supported:
 
 - Tested on:
-	- Google Chrome 
+	- Google Chrome
+
 	- Safari
 
 	- Although it was tested on these browsers, it is playable across most browsers. In fact, if it doesnt work in some browser, please email me and let me know so I can fix it :)
 
 - Note:
-	- All applications arent playable across all types of devices just yet. Some arent
-	playable without a keyboard. So make sure to read the description to make sure that your perferred device is supported.
+	- All applications arent playable across all types of devices just yet. Some arent playable without a keyboard. So make sure to read the description to make sure that your perferred device is supported.
 
 ## How To Open the game
 
@@ -48,4 +53,4 @@ a portfolio for some of my work, so people can see what some of my current proje
 
 ## Created by:
 
-- This app player was created by Shane Lester. But remember, some of the applications that it can play, while primarily developed by me, had other collaborators. So make sure to read the description and the README to see who was responsible for what
+- This app player was created by Shane Lester on September 10th 2018
