@@ -76,7 +76,7 @@ class AppInformation {
 			// info[2] has the name of the application
 			info.push('Concentration');
 			// info[3] has the description
-			const gameDescription = 'Welcome to Concentration :)';
+			const gameDescription = AppInformation.generateDescription('Concentration');
 			info.push(gameDescription);
 			// info[4] has the github link to source code
 			info.push('https://github.com/Shane-Lester99/Concentration');
@@ -95,7 +95,7 @@ class AppInformation {
 			info.push('app logo of game called Pixel Art');
 			// info[2] has the name of the application
 			info.push('Pixel Art');
-			const gameDescription = 'Welcome to Pixel Art :)';
+			const gameDescription = AppInformation.generateDescription('Pixel Art');
 			// info[4] has the github link to source code
 			info.push(gameDescription);
 			info.push('https://github.com/Shane-Lester99/Pixel-Art-Maker');
@@ -120,37 +120,38 @@ class AppInformation {
 		let message = '';
 		// Tommy Cross passed in as a parameter, generate description
 		if (appTitle === 'Tommy Cross') {
-			message = '<p>Like Frogger, Tommy Cross is about crossing the road to ' + 
-			'reach the other side during a traffic jam. The primary goal is to dodge traffic and make' +
-			' it to the other side safely.</p>' + 
-			' <p>However, there is a twist on the original. Rather then just trying to' +  
-			' get to the other side the goal of the game is to get as many points as possible! </p>' +
-			' This allows the user to constantly dodge traffic, making it much more action packed then the original Frogger! </p>' +
-			'<p> Engineering-wise, this was a collaboration effort, so please read the README for details in the source code. </p>' +
-			'<p> Lastly, the game is not yet playable for touch devices. That will come out in some future update, '+ 
-			'but for now, enjoy Tommy Cross in the web browser of your choice! </p>';
-  
+			message = '<p>Tommy Cross is a boy in a bit of a jam, a traffic jam that is!' +
+			 ' Okay, thats a little lame, and I apologize. </p> '+ 
+			 'The point I was trying to make was that, similar to Frogger, ' +
+			 'Tommy Cross  needs to dodge traffic and make it to the other side safely. ' +
+			 'Will you be the hero he needs to help him?</p>' +
+             '<p>Engineering-wise, this was a collaboration effort, so please read the README for ' +
+             'details in the source code. </p>' +
+             'Lastly, the game is not yet playable for touch devices. As unfortunate as that is, it will ' +
+             'come in an update in the not so distant future :)</p>';
 		}
 		// Concentration passed in as a parameter, generate descripiton
 		else if (appTitle === 'Concentration') {
-			 message = '<p>This game is a browser based version of the classic card game concentration. </p>'  +
-			 '<p>Remember concentration? It’s that matching game you played when you were a kid where you laid ' +
+			 message = 
+			 '<p>Remember concentration? It’s that matching game you may have played as a kid where you laid ' +
 			 'out a bunch of cards face-down and tried to pair up two of a kind as quickly as possible. </p>' +
-			 '<p>If you do not remember, its okay neither did I, and thats what google is for!</p>' +
-			 '<p>Anyway, behind each card is a secret emoji, with two of each type within the deck of ' + 
-			 'cards. Be careful though, the emojis change fast, so make sure to concentrate!</p>';
+			 '<p> Your parents may or may not have yelled at you for making a mess... </p>' +
+			 '<p> Too bad there was no way to play it without making a mess. Like... online or something? ' +
+			 '<p> Also behind each card is a secret emoji, with two of each type within the deck of ' + 
+			 'cards. Be careful though, the emojis change fast, so make sure to... focus! ' +
+			  '(is there another word for that?)</p>';
 		}
 		// Pixel Art passed in as a parameter, generate descripiton
 		else if (appTitle === 'Pixel Art') {
 			 message = '<p>Did you ever want to use a drawing app that could re-create classic ' +
-			 'pixelated-yet-lovable game sprites from the beginning of gaming? Or are you more ' +
-			  'of an abstract artist that wants to create a pixelated affect in your drawings?' +
+			 'pixelated-yet-lovable game sprites from the beginning of gaming?<p>Or are you more ' +
+			  'of an abstract artist that wants to create a pixelated affect in your drawings? </p>' +
 			  ' Or perhaps you have a few hours to kill before a big date tonight ?</p>' +
 			'<p>Either way, this app is just what you need, and you should create some pixel art! </p> ' +
-			'<p>All you have to get started is fill in what size you want your canvas to be, choose a color, ' +
+			'<p>All you have to do to get started is fill in what size you want your canvas to be, choose a color, ' +
 			 'and get drawing! But be warned, it can get pretty addictive pretty fast! </p>' +
 			'<p>Also note that this app was a collaboration effort, so please read the README ' +
-			'in the source code to learn more about who made what.  </p>';
+			'in the source code to learn more about who made what :)  </p>';
 		}
 		// Return the description
 		return message;
