@@ -8,6 +8,7 @@
 * [Browsers Supported](#browsers-supported)
 * [How To Play](#how-to-play)
 * [Build](#build)
+* [Possible Future Updates](#possible-future-updates)
 * [Created By](#created-by)
 
 ## Description: 
@@ -26,7 +27,7 @@ a portfolio for some of my work, so people can see what some of my current proje
 
 ## Contributions:
 
-To create the app player, there were no contributions. However, some of the apps had contributions. So make sure to refer to the README if interested in who built what part. All of the apps were primarily built by me from scratch or near scratch, with minor contributions from others. Please read each projects individual README.md file and read under the section 'Contributions' for more information
+To create the app player, there were no contributions. However, some of the apps had contributions. So make sure to refer to the README if interested in who built what part. All of the apps were primarily built by me from scratch or near scratch, with minor contributions from others. These contributions were primarily from educational sites which gave me a little bit of starter code, a project prompt, or some media assets. Please read each projects individual README.md file and read under the section 'Contributions' for more information on who did what.
 
 ## Browsers Supported:
 
@@ -50,6 +51,9 @@ To create the app player, there were no contributions. However, some of the apps
 
 - Additionally, you can click my LinkedIn or Github button to find more information about me
 
+## Possible Future Updates
+
+- Would like to optimize the site so it loads faster. The site is currently a little slow due to a few bottlenecks from repainting and reflowing excessively in the js file, and using image assets that are non optimized. This update should come soon, as it will improve the performance of the site dramatically. Overal, the site is very basic and the loading doesnt hurt any of the apps, but the app player could use a performance update. This should happen very very soon.
 
 ## Created by:
 
