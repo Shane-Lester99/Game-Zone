@@ -124,16 +124,12 @@ class AppInformation {
 			 ' Okay, thats a little lame, and I apologize. </p> '+ 
 			 'The point I was trying to make was that, similar to Frogger, ' +
 			 'Tommy Cross  needs to dodge traffic and make it to the other side safely. ' +
-			 'Will you be the hero he needs to help him?</p>' +
-             '<p>Engineering-wise, this was a collaboration effort, so please read the README for ' +
-             'details in the source code. </p>' +
-             'Lastly, the game is not yet playable for touch devices. As unfortunate as that is, it will ' +
-             'come in an update in the not so distant future :)</p>';
+			 'Will you be the hero he needs to help him?</p>'
 		}
 		// Concentration passed in as a parameter, generate descripiton
 		else if (appTitle === 'Concentration') {
 			 message = 
-			 '<p>Remember concentration? It’s that matching game you may have played as a child.' +
+			 '<p>Remember concentration? It’s that matching game you may have played as a child. ' +
 			 'It was the one where you put cards face-down and paired up two of a kind as quickly as possible? </p>' +
 			'<p>If you do not remember, its okay neither did I at first, and thats what google is for!</p>' +
 			'<p>Anyway, behind each card is a secret emoji, with two of each type within the deck of cards. ' +
@@ -147,9 +143,7 @@ class AppInformation {
 			  ' Or perhaps you have a few hours to kill before a big date tonight ?</p>' +
 			'<p>Either way, this app is just what you need, and you should create some pixel art! </p> ' +
 			'<p>All you have to do to get started is fill in what size you want your canvas to be, choose a color, ' +
-			 'and get drawing! But be warned, it can get pretty addictive pretty fast! </p>' +
-			'<p>Also note that this app was a collaboration effort, so please read the README ' +
-			'in the source code to learn more about who made what :)  </p>';
+			 'and get drawing! But be warned, it can get pretty addictive pretty fast! </p>'
 		}
 		// Return the description
 		return message;
